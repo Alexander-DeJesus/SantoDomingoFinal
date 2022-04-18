@@ -1,0 +1,64 @@
+* {padding:0;margin:0;}
+h1 {color:green;}
+a {color:rgba(255,255,44,1);
+  margin-left:20px;
+  margin-right:20px;
+  font-size:16px;
+  text-decoration:none;
+}
+#navbar {
+  background-color:rgba(0,0,55,1);
+  width:100%;
+  height:50px;
+}
+.trio {
+  padding-top:10%;
+  background:rgba(255,0,0,1); 
+  width:100%;
+  height:300px;
+}
+
+.trio img {
+  float:left;
+  padding:5px;
+  width:32%;
+  height:125px;
+}
+
+.cuarteto {
+  padding-top:10%;
+  background:rgba(255,0,0,0);
+  width:100%;
+  height:300px;
+}
+
+.cuarteto img {
+  float:left;
+  padding:5px;
+  width:24%;
+  height:200px;
+}
+
+.duo {
+  padding-top:10%;
+  background:rgba(255,0,0,0);
+  width:100%;
+  height:300px;
+}
+
+.duo img {
+  float:left;
+  padding:5px;
+  width:49%;
+  height:200px;
+}
+p {
+ column-count:3;
+ column-gap:40px;
+ /*column-rule-style:solid*/
+ column-rule: 1px solid lightblue;
+ text-align:justify;
+ text-indent:10px;
+ line-height:1.3;
+ font-family: 'Square Peg', cursive;
+}
